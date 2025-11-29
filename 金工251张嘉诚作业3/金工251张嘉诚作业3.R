@@ -1,4 +1,9 @@
 c(1:5)#向量是最基础的，用c函数即可构建，类型有向量（特殊向量factor）、矩阵、数组、数据框、列表
+c('hello')#字符型
+c(123.123)#浮点数
+c(1L)#整型
+c(3+2i)#f复数
+c(TRUE)#逻辑型
 gender <- factor(c('a','b'))#因子
 a <- matrix(1:30,nrow = 5,ncol = 6,byrow = FALSE,dimnames = list(
   c('one','two','three','four','five'),
